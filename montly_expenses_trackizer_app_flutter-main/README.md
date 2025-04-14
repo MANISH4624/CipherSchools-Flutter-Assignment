@@ -1,33 +1,26 @@
-# Monthly Expenses Trackizer App UI UX Design Convent Into Flutter Code
-
-# codeforany @codeforany
-
-- [Youtube Full Playlist: Monthly Expenses  App UI UX Design Convent Into Flutter Code](https://www.youtube.com/playlist?list=PLzcRC7PA0xWQRSF-Crjk6q3AQArDgCxak)
-- [Youtube Channel: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg)
-- [Youtube Channel Subscribe: @codeforany](https://www.youtube.com/channel/UCdQTp9wRK5vAOlEQZf9PHSg?sub_confirmation=1)
-
-- [Youtube Video Part-1: App Induction, Sign Up Flow UI](https://youtu.be/A8Ou5iHU5lI)
-- [Youtube Video Part-2: Bottom TabView UI, Home Tab UI](https://youtu.be/LwW4Z35n-wM)
-- [Youtube Video Part-3: Spending Budgets Tab UI](https://youtu.be/LHkkCG8W5YI)
-- [Youtube Video Part-4: Subscription Schedule Calendar Tab UI](https://youtu.be/aViCUzVWo7o)
-- [Youtube Video Part-5: Add New Subscription UI](https://youtu.be/zNd3YDQu3sw)
-- [Youtube Video Part-6: Subscription Info Details Screen UI](https://youtu.be/5-sb4jXf3bc)
-- [Youtube Video Part-7: App Settings Screen UI](https://youtu.be/l9dM3X0Up0A)
-- [Youtube Video Part-8: Add Credit Cards Tab UI](https://youtu.be/zlLowXpiAZw)
-
-UI UX App Design by: [symu.co](https://symu.co/)
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Building a Basic Expense Tracking Application 
+Objective: 
+The objective of this assignment is to assess your ability to design, implement, and 
+develop a scalable frontend using Flutter and Firebase. 
+Tasks: 
+Task 1: Develop a basic personal expense tracker app interface. The app should allow 
+users to track their expenses, and visualize their financial data over time. 
+Requirements: 
+User Interface: 
+● A clean and intuitive UI. 
+● Ability to add expense and income entries. 
+● Use Material Design components for consistency and familiarity. 
+Features: 
+● Ability to delete expenses by swiping gestures. 
+● Categorization of expenses (e.g. food, travel, subscriptions and shopping). 
+● Display of income, and expenses. 
+The data created should be stored in local databases such as SQFlite or Hive and 
+should be fetched from there to display. 
+Task 2: Google Authentication 
+Implement Google authentication feature for login/signup. In case of successful signup 
+store the document with name and email in cloud firestore, and name of document 
+should be the firebase user id , then store user id in local storage like shared preference 
+to get the login the user after the session is terminated. Implement a logout functionality 
+to logout the user. 
+(If the user has signed in the previous session and is not logged out then the details 
+should be fetched from Cloud Firestore). 
